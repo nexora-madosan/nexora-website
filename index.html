@@ -6,7 +6,7 @@
 <title>NEXORA — Build • Learn • Evolve</title>
 <meta name="description" content="NEXORA is a growing digital initiative building useful solutions, exploring emerging technologies and turning ideas into practical digital experiences.">
 <meta name="theme-color" content="#080B16">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
@@ -15,10 +15,16 @@
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset="1" stop-color="#8257FF"/></linearGradient>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="120" y2="0"><stop offset="0" stop-color="#E411D8"/><stop offset=".55" stop-color="#8257FF"/><stop offset="1" stop-color="#19C3F5"/></linearGradient>
+    <clipPath id="eyeclip"><path clip-rule="evenodd" d="M3 40C22 12 42 6 60 6S98 12 117 40C98 68 78 74 60 74S22 68 3 40ZM60 10A30 30 0 1 0 60 70A30 30 0 1 0 60 10Z"/></clipPath>
     <symbol id="logo" viewBox="0 0 120 80">
-      <path class="eye" d="M4 40C24 12 44 5 60 5s36 7 56 35C96 68 76 75 60 75S24 68 4 40Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
-      <path class="en" d="M44 54V26l32 28V26" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+      <g fill="none" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round">
+        <path class="eye" pathLength="1" d="M3 40C22 12 42 6 60 6S98 12 117 40C98 68 78 74 60 74S22 68 3 40Z"/>
+        <g clip-path="url(#eyeclip)"><ellipse class="eye" pathLength="1" cx="60" cy="40" rx="50" ry="34"/><ellipse class="eye" pathLength="1" cx="60" cy="40" rx="40" ry="34"/><ellipse class="eye" pathLength="1" cx="60" cy="40" rx="30" ry="34"/><ellipse class="eye" pathLength="1" cx="60" cy="40" rx="21" ry="34"/></g>
+        <path class="eye" pathLength="1" d="M57 15.2A25 25 0 0 0 57 64.8M63 15.2A25 25 0 0 1 63 64.8"/>
+        <path class="eye" pathLength="1" stroke-width="1.4" d="M8 40H26M94 40H112"/>
+      </g>
+      <path class="en" fill="#E011DC" d="M46 27h8.5l11 15.5V27H74v26h-8.5L54.5 37.5V53H46Z"/>
     </symbol>
   </defs>
 </svg>
